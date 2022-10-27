@@ -85,7 +85,6 @@ public class Tomato_7576 {
 		while(!que.isEmpty()) { //que가 비지 않았다면
 			tomato t=que.remove(); //que에서 토마토 객체 꺼냄
 			
-			
 			//remove()함수로 pop()한 x,y 좌표를 꺼내줌
 			int x=t.x; //꺼낸 객체에 저장된 x 좌표
 			int y=t.y; //꺼낸 객체에 저장되 y 좌표
